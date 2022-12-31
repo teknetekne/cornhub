@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Cornhub: Everything about corns</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/83dacd71d0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>  
+        <script defer src="app.js"></script>
+	</head>
+<body>
+    <div id="blur" class="main">
+        <div class="header">
+          <a href="main.html">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+          </a>
+            <div class="search-container">
+              <input class="search-field" type="text">
+              <button class="search-button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+            <div class="header-right">
+                <button class="shopping-cart">
+                    <i class="fa fa-cart-shopping"></i>
+                  </button>
+                  <button class="user-icon" onclick="toggleBlur()">
+                    <i class="fa fa-user"></i>
+                  </button>
+                  <div id="id01" class="modal ">
+                    <form class="modal-content animate" action="/action_page.php">
+                      <div class="container">
+                        <h2>Login</h2>
+                        <input type="text" placeholder="Your e-mail adress" name="email" required>
+                  
+                        <input type="password" placeholder="Your password" name="psw" required>
+                  
+                        <button type="submit">Login</button>
+                      </div>
+                      <div id = 'login-img-container'>
+                        <span onclick="toggleBlur()" 
+                    class="close" title="Close">&times;</span>
+                      </div>
+                    </form>
+                  </div>
+            </div>
+        </div>
+        <nav>
+            <ul id="mainMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Fertilizers</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+<div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/slider-1.jpeg"></div>
+        <div class="swiper-slide"><img src="img/slider-2.webp"></div>
+        <div class="swiper-slide"><img src="img/slider-3.jpeg"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+<h1 class="gmo-free">Buy GMO free corns.</h1>
+<p class="non-gmo">Our shop is the perfect place to buy the freshest and most delicious non-GMO corn available. We source our corn from local farms to ensure the highest quality, and offer a variety of options including sweet corn, field corn, and popcorn. All of our corn is non-GMO, so you can feel good about what you're eating. Whether you're looking for a tasty snack or want to use corn as a ingredient in your cooking, we have you covered.</p>
+<h3 class="topsellers">Topsellers</h3>
+<div class="topseller-products">
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="item">
+    <div class="item-img-container">
+      <img src="img/item.jpeg" alt="item-img" style="width:100%">
+    </div>
+    <p>Lorem ipsum dolor sit amet</p>
+    <p class="dsc">Lorem ipsum dolor sit amet</p>
+    <div class="price-etc">
+    <p class="price">$19.99</p>
+    <p><button class="add-cart">Add to Cart</button></p>
+  </div>
+  </div>
+  </div>
+  <div class="slogans hidden hidden2">
+    <p class="shipping hidden">Free shipping</p>
+    <p class="payment hidden">Secure payment</p>
+    <p class="support hidden">24/7 support</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-container-left">
+      <div class="footer-left-content">
+      <h2>About us</h2>
+      <p>Corn makers, corn lovers, corn admirers! We love everything about corn, making it our own.</p>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    </div>
+    <div class="footer-container-mid">
+      <div class="footer-mid-content">
+      <h2>Adress</h2>
+      <div class="mid-content-content">
+      <i class="fa-solid fa-location-dot"></i>
+      <p>Corny Joke City, Cornistan</p>
+      <i class="fa-solid fa-phone"></i>
+      <p>515-213-3142</p>
+      <i class="fa-solid fa-envelope"></i>
+      <p>corn@cornhub.com</p></div>
+    </div>
+    </div>
+    <div class="footer-container-right">
+      <h2>Contact</h2>
+      <div class="right-form">
+      <form action="#">
+        <input type="name" placeholder="Name" required>
+        <input type="mail" placeholder="E-mail adress" required>
+        <button type="submit">Send</button>
+        <textarea cols="60" rows="5" placeholder="Your message"required></textarea>
+      </form>
+    </div>
+</footer>
+<footer class="footer2">
+  <div class="footer-end">
+    <p>made with ❤️ and 🌽 by emre tekneci & umut oğuz</p>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</body>
+</html>
