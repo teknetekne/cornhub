@@ -371,13 +371,10 @@ div.header {
   margin-bottom: 70px;
   width: 230px;
   height: 320px;
-  border-radius: 15px;
   overflow: hidden;
   font-weight:500;
   font-size: 15px;
-  box-shadow: 0px 3px 3px 0px rgba(166,166,166,0.75);
--webkit-box-shadow: 0px 3px 3px 0px rgba(166,166,166,0.75);
--moz-box-shadow: 0px 3px 3px 0px rgba(166,166,166,0.75);
+  border: 1px solid rgb(153, 151, 151);
 transition: transform .15s;
 }
 
@@ -396,7 +393,7 @@ transition: transform .15s;
 .dsc {
   font-size: 12px;
   float: left;
-  margin-left: 11.65px;
+  margin-left: 11.3px;
   font-weight: 400;
 }
 
@@ -411,6 +408,7 @@ transition: transform .15s;
   display: flex;
   cursor: pointer;
   margin-bottom: 10px;
+  border-bottom: 1px solid rgb(153, 151, 151);
 }
 
 .item-img-container img {
@@ -539,7 +537,6 @@ footer {
 
 .footer-container-mid {
   width: 33.3%;
-  margin-left: 40px;
 }
 
 .footer-container-right {
